@@ -118,15 +118,15 @@ function PostedJobs() {
                                                         <lord-icon
                                                             src="https://cdn.lordicon.com/vfczflna.json"
                                                             trigger="hover"
-                                                            style={{ width: "25px", height: "25px", marginLeft: "20px" }}>
+                                                            style={{ width: "25px", height: "25px", marginLeft: "14px" }}>
                                                         </lord-icon>
                                                     </Link>
-                                                    {/* <img src={trash} onClick={handleRemove} style={{ cursor: "pointer", marginLeft: "20px" }} className="icon_hover" /> */}
+                                                    {/* <img src={trash} onClick={handleRemove} style={{ cursor: "pointer", marginLeft: "14px" }} className="icon_hover" /> */}
                                                     <lord-icon
                                                         src="https://cdn.lordicon.com/skkahier.json"
                                                         trigger="hover"
                                                         colors="primary:#c71f16"
-                                                        style={{ width: "25px", height: "25px", cursor: "pointer", marginLeft: "20px" }}
+                                                        style={{ width: "25px", height: "25px", cursor: "pointer", marginLeft: "14px" }}
                                                         onClick={() => deleteItem(details?._id)}>
                                                     </lord-icon>
                                                 </td>

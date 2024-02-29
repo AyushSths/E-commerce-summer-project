@@ -50,25 +50,6 @@ const store = async (req, res, next) => {
     }
 }
 const update = async (req, res, next) => {
-    // try {
-    //     const productId = req.params.id;
-    //     const updatedProductData = req.body;
-    //     const { count } = req.body;
-
-    //     // Find the product by ID and update it
-    //     const updatedProduct = await Product.findByIdAndUpdate(productId, updatedProductData, { count }, {
-    //         new: true, // Return the updated product
-    //     });
-
-    //     if (!updatedProduct) {
-    //         return res.status(404).json({ message: 'Product not found' });
-    //     }
-
-    //     return res.status(200).json(updatedProduct);
-    // } catch (error) {
-    //     console.error('Error updating product:', error);
-    //     return res.status(500).json({ message: 'Internal server error' });
-    // }
 
     try {
         const productId = req.params.id;
